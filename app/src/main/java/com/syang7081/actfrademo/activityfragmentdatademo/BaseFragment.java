@@ -18,7 +18,7 @@ public abstract class BaseFragment extends Fragment {
     private List<WeakReference<BaseFragment>> fragmentList = new ArrayList<>();
 
     public void onReceiveData(List<Bundle> bundles) {
-        // relay down to children fragments
+        // Relay to child fragments
         postData(bundles);
     }
 
